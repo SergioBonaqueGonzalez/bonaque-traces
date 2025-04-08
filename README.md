@@ -9,13 +9,14 @@ This repository contains the MATLAB scripts used to generate the figures in the 
 ## 📄 Description
 
 These scripts simulate the thermal signatures left by narrow beams of electromagnetic radiation interacting with various interstellar structures. The figures explore divergence geometries, temperature increases, and detectability thresholds.
+For detailed methods and parameter definitions, see the Methods section of the accompanying paper.
 
 ### Contents
 
 | Script                         | Description                                                  |
 |-------------------------------|--------------------------------------------------------------|
-| `Figure1_BeamDivergence.m`    | Generates divergence plots for collimated and post-focus beams. |
-| `Figure2to5_TemperatureMaps.m`| Computes and visualizes temperature increases (ΔT) across ISM structures for different distances, durations, and powers. Generates Figures 2, 4, and 5. 
+| `generate_figure1_beam_divergence.m`    | Generates divergence plots for collimated and post-focus beams. |
+| `BonaqueTrace_simulation_Fig_2_4_5.m.m`| Computes and visualizes temperature increases (ΔT) across ISM structures for different distances, durations, and powers. Generates Figures 2, 4, and 5. 
 | `Figure3_SimulatedDetection.m`| Simulates beam detectability over noisy thermal backgrounds with spatial binning. Generates Figure 3. |
 
 ---
@@ -35,18 +36,11 @@ These scripts simulate the thermal signatures left by narrow beams of electromag
 
 ---
 
-## 📜 License
-
-This code is shared for academic and research purposes.  
-You are welcome to use or adapt it, preferably with attribution.
-
----
-
 ## 📚 Citation
 
 If you use this code, please cite the corresponding paper:
 
-> Bonaque-González, S. (2025). *Microthermal Residuals from Directed Electromagnetic Emissions as a New Class of Technosignature.* (submitted)
+> Bonaque-González, S. (2025). *Microthermal Residuals from Directed Electromagnetic Emissions as a New Class of Technosignature.* (manuscript under review; preprint available soon)
 
 A Zenodo DOI will be provided once the preprint is available on arXiv.
 
@@ -60,7 +54,7 @@ You may reuse or adapt the code for academic and non-commercial purposes **as lo
 > **Sergio Bonaque-González (2025)**  
 > *Microthermal Residuals from Directed Electromagnetic Emissions as a New Class of Technosignature*
 
-Full license details: https://creativecommons.org/licenses/by-nc/4.0/
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 For questions, contact: **sbonaque@ull.edu.es**
